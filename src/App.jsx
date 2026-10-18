@@ -1,17 +1,20 @@
-
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
-    <main className="min-h-screen bg-[#0a0a0a] p-8 text-white">
-      <h1 className="text-4xl font-bold text-cyan-400">
-        James Louie
-      </h1>
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-[#0a0a0a] p-8 text-white">
+        <h1 className="text-4xl font-bold text-cyan-400">
+          James Louie
+        </h1>
 
-      <p className="mt-4 text-lg text-gray-300">
-        Frontend Development + eCommerce + CMS
-      </p>
-    </main>
+        <p className="mt-4 text-lg text-gray-300">
+          Frontend Development + eCommerce + CMS
+        </p>
+      </main>
+    </>
   )
 }
 
