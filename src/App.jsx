@@ -1,10 +1,12 @@
 import Navbar from './components/Navbar'
+import Hero from './sections/Hero'
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Hero />
       <main className="min-h-screen bg-[#0a0a0a] p-8 text-white">
         <h1 className="text-4xl font-bold text-cyan-400">
           James Louie
