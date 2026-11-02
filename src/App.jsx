@@ -5,6 +5,7 @@ import About from './sections/About'
 import Skills from './sections/Skills'
 import Experience from './sections/Experience'
 import Contact from './sections/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Experience />
       <Contact />
+      <Footer />
     </>
   )
 }
